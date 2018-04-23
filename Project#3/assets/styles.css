@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+  margin: 0
+}
+
+body{
+  background: #239F85;
+  font-family: Roboto, sans-serif;
+  font-size: 10px
+}
+
+h1{
+  font-size: 12px;
+}
+
+p {
+  margin: 3% 0;
+  font-size: 6px;
+  color: #b5b5b5;
+}
+
+main{
+  background-image: url('./img/bicycle.png');
+  background-size: 80%;
+  background-position: 50% 100px;
+  background-repeat: no-repeat;
+  height: 250px;
+  background-color: white;
+}
+
+.items {
+  font-size: 8px;
+  font-weight: 400;
+  margin: 8% 0;
+  color: #808080;
+}
+
+.container{
+ width: 50%;
+  margin: 10% auto 0 auto;
+  padding: 5%;
+  box-shadow: 0 1px 10px #212121;
+  border-radius: 2px;
+}
+
+.amount{
+  float: right;
+  font-size: 12px;
+  font-weight: 600;
+  color: #000000
+}
+
+#page-title, #account-icon{
+  display: inline-block;
+  width: 50%;
+}
+
+#account-icon {
+  float: right;
+  width: 7%;
+}
+
+#account-icon img{
+  width: 100%;
+  border: 0.5px solid #a5a5a5;
+  border-radius: 100%;
+  padding: 1px;
+}
